@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+:root {
+  --cl_1: rgb(1, 200, 214);
+  --cl_2: rgb(0, 79, 104);
+  --cl_3: rgb(0, 53, 83);
+}
+
+.container {
+  width: 100%;
+  padding: 10px 10px;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+  .infomation {
+    width: 100%;
+
+    .b_img {
+      width: 100%;
+      img {
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        object-position: top;
+      }
+    }
+    .fname {
+      font-size: 25px;
+      text-align: center;
+      font-weight: 750;
+    }
+    .position {
+      text-align: center;
+      font-weight: 600;
+      background-color: var(--cl_2);
+      color: white;
+      padding: 5px 0;
+    }
+    .myself {
+      .contact {
+        .line_container {
+          display: flex;
+          gap: 5px;
+          padding-bottom: 5px;
+          align-items: center;
+          i {
+            width: 24px;
+            font-size: 17px;
+            display: flex;
+            justify-content: center;
+          }
+          span {
+            font-size: 14px;
+          }
+        }
+        .list_contact {
+          display: flex;
+          width: 100%;
+          gap: 10px;
+          padding: 5px 0;
+          justify-content: center;
+
+          a {
+            div {
+              i {
+                font-size: 20px;
+                color: blue;
+              }
+            }
+          }
+        }
+      }
+    }
+    .study {
+      .school {
+        padding-bottom: 10px;
+        .name {
+          font-size: 16px;
+          font-weight: 700;
+          color: var(--cl_2);
+          i {
+            font-size: 15px;
+            padding-right: 10px;
+            color: black;
+          }
+        }
+        .industry {
+          font-size: 14px;
+        }
+      }
+    }
+    .program {
+      ul {
+        padding-left: 10%;
+        li {
+          font-size: 15px;
+        }
+      }
+      .list_item {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        padding: 5px 0;
+
+        button {
+          padding: 5px 8px;
+          font-size: 11px;
+          background-color: var(--cl_2);
+          color: white;
+          border: none;
+        }
+      }
+    }
+    .skill {
+      ul {
+        padding-left: 10%;
+        li {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .awards_experient_project {
+    width: 100%;
+    .awards {
+      ul {
+        padding-left: 4%;
+        li {
+          p:nth-child(1) {
+            font-weight: 700;
+            color: var(--cl_2);
+          }
+          p:nth-child(2) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .experient {
+      ul {
+        padding-left: 4%;
+        li {
+          p:nth-child(1) {
+            font-weight: 700;
+            padding-bottom: 5px;
+            padding-top: 10px;
+            color: var(--cl_2);
+          }
+          p:nth-child(2) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .project {
+      ul {
+        padding-left: 4%;
+        .project_item {
+          padding-bottom: 10px;
+          .name {
+            font-weight: 650;
+            color: var(--cl_2);
+            padding-bottom: 5px;
+          }
+          .row_11 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            .left,
+            .right {
+              p {
+                font-size: 14px;
+                padding-bottom: 3px;
+                a {
+                  padding-right: 5px;
+                  i {
+                    font-size: 17px;
+                  }
+                }
+                span {
+                  font-weight: 650;
+                }
+              }
+              .box_btn {
+                display: flex;
+                gap: 10px;
+                button {
+                  padding: 2px 5px;
+                  font-size: 10px;
+                }
+              }
+            }
+            .right {
+              p {
+                font-size: 13px;
+              }
+              span {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.topic {
+  font-size: 18px;
+  font-weight: 780;
+
+  word-spacing: 1px;
+  border-bottom: 2px solid var(--cl_1);
+  color: rgb(255, 162, 0);
+  padding-top: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
