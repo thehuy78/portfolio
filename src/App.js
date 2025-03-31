@@ -1,13 +1,13 @@
 
 import './App.scss';
-import { contact, Program, Project } from './Data';
+import { avatar, contact, Program, Project } from './Data';
 
 function App() {
   return (
     <div className='container'>
       <div className='infomation'>
         <div className='b_img'>
-          <img alt='' src='https://hthaostudio.com/wp-content/uploads/2019/08/Anh-doanh-nhan-3-min.jpg.webp' />
+          <img alt='' src={avatar} />
         </div>
         <div className='myself'>
           <p className='fname'>NGUYỄN THẾ HUY</p>
