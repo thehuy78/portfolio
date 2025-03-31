@@ -58,17 +58,17 @@ function App() {
             <p className='industry'>Chuyên ngành lập trình viên</p>
           </div>
         </div>
-        <div>
-          <div className='skill'>
-            <p className='topic'>Skills</p>
-            <ul>
-              <li> Independent Working</li>
-              <li> Adaptability & Flexibility</li>
-              <li> Time Management & Meeting Deadlines</li>
-              <li> Problem-Solving</li>
-            </ul>
 
-          </div>
+        <div className='skill'>
+          <p className='topic'>Skills</p>
+          <ul>
+            <li> Independent Working</li>
+            <li> Adaptability & Flexibility</li>
+            <li> Time Management & Meeting Deadlines</li>
+            <li> Problem-Solving</li>
+          </ul>
+
+
         </div>
         <div className='program'>
           <div className='topic'>Programming Languages</div>

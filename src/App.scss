@@ -235,3 +235,34 @@ code {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 657px) {
+  .container {
+    padding: 10px 25px;
+    grid-template-columns: 1fr;
+  }
+  .infomation {
+    .b_img {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 40% !important;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+      }
+    }
+  }
+  .infomation .fname {
+    font-size: 18px;
+  }
+  .infomation .position {
+    font-size: 14px;
+  }
+  .skill ul,
+  .program ul {
+    padding-left: 5%;
+  }
+  .project .row_11 {
+    grid-template-columns: 1fr;
+  }
+}
