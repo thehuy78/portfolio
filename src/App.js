@@ -49,15 +49,21 @@ function App() {
         <div className='study'>
           <div className='topic'>EDUCATION</div>
           <div className='school'>
-
-            <p className='name'><i class="fa-solid fa-user-graduate"></i><span>(2018 - 2021) - Trường Cao Đẳng Kỹ Thuật Cao Thắng</span></p>
-            <p className='industry'>Chuyên ngành Kỹ Thuật Ô Tô</p>
+            <p className='name'>
+              <i class="fa-solid fa-user-graduate"></i>
+              <span>(2018 - 2021) - Cao Thang Technical College</span>
+            </p>
+            <p className='industry'>Major: Automotive Engineering</p>
           </div>
           <div className='school'>
-            <p className='name'><i class="fa-solid fa-user-graduate"></i><span>(2023 - 2025) - Viện đào tạo quốc tế FPT Aptech</span></p>
-            <p className='industry'>Chuyên ngành lập trình viên</p>
+            <p className='name'>
+              <i class="fa-solid fa-user-graduate"></i>
+              <span>(2023 - 2025) - FPT Aptech International Training Institute</span>
+            </p>
+            <p className='industry'>Major: Software Development</p>
           </div>
         </div>
+
 
         <div className='skill'>
           <p className='topic'>Skills</p>
