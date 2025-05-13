@@ -8,6 +8,7 @@ function App() {
       <div className='infomation'>
         <div className='b_img'>
           <img alt='' src={avatar} />
+
         </div>
         <div className='myself'>
           <p className='fname'>NGUYỄN THẾ HUY</p>
@@ -171,7 +172,7 @@ function App() {
         </div>
       </div>
     </div>
+
   );
 }
-
 export default App;
