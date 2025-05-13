@@ -238,14 +238,14 @@ export const Project = [
 
 
   {
-    name: "Project 5: Custom React Component Library - HLib UI",
+    name: "Project 5: Custom UI React Component Library - Hintu",
     time: "04-2025 – Present",
     video: "",
     document: "https://www.npmjs.com/package/hintu",
     language: [
       {
         title: "Package",
-        name: "React Component Library (NPM)",
+        name: "React Component Library (NPM) - Hintu",
         link: ""
       },
       {
